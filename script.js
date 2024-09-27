@@ -4,7 +4,7 @@ let campoAventura;
 
 function setup() {
   createCanvas(800, 400);
-  createElement("h2", "@maria_isabelyyy22");
+  createElement("h2", "@kaue");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
   campoFantasia = createCheckbox("Gosta de filmes de comedia?");
@@ -47,7 +47,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     }
   } else {
     if (gostaDeFantasia) {
-      return "@maria_isabelyyy22";
+      return "@kaue";
     } else {
       return "Todo Hacker tem um início";
     }
