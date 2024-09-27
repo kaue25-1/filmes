@@ -7,10 +7,10 @@ function setup() {
   createElement("h2", "@maria_isabelyyy22");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
-  campoFantasia = createCheckbox("Gosta de filmes de romance?");
+  campoFantasia = createCheckbox("Gosta de filmes de comedia?");
   campoAventura = createCheckbox("Gosta de filme sobre crime?");
-  campoAventura = createCheckbox("Gosta de filme sobre pericia criminal?");
-  campoAventura = createCheckbox("Gosta de filme sobre policial?");
+  campoAventura = createCheckbox("Gosta de filme sobre ação?");
+  campoAventura = createCheckbox("Gosta de filme sobre terror?");
 }
 
 function draw() {
