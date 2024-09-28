@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background("pink");
+  background("blue");
   let idade = campoIdade.value();
   let gostaDeFantasia = campoFantasia.checked();
   let gostaDeAventura = campoAventura.checked();
