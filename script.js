@@ -49,7 +49,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     if (gostaDeFantasia) {
       return "@kaue";
     } else {
-      return "Todo Hacker tem um início";
+      return "Conquistar meus sonhos";
     }
   }
 }
